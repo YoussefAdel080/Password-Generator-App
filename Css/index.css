@@ -1,0 +1,197 @@
+body
+{
+    background-color: #18181b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1
+{
+    color: #585868;
+    text-align: center;
+    font-size: 17px;
+}
+
+#screen
+{
+    background-color: #24232C;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+#password
+{
+    color: #51515a;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    bottom: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#copy-icon
+{
+    color: #A5FDAF;
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+
+}
+
+#copy-icon:hover
+{
+    color: #cbf1d0;
+}
+
+.card
+{
+    width: 40%;
+    margin: auto;
+    
+}
+
+.pass-req
+{
+    margin-top: 25px;
+    background-color: #24232C;
+    padding-bottom: 20px;
+}
+
+form
+{    
+    width: 90%;
+    margin: auto;  
+    padding-top: 20px;
+}
+
+.range-val-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.range-val-container h2
+{
+    color: white;
+    font-size: 15px;
+}
+
+.range-val-container p
+{
+    color: #97fca2;
+    font-size: 25px;
+    margin: 0px;
+}
+#form-check-box div
+{
+    padding: 0px 0px 15px 0px;
+}
+
+label
+{
+    color: white;
+}
+
+input[type=checkbox]{
+    border: 2px solid white;
+    accent-color: transparent;
+    margin-right: 10px;
+}
+
+input[type=checkbox]:checked{
+    accent-color: #A5FDAF;
+}
+
+.stringth-section
+{
+    background-color: #18181b;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.stringth-section p
+{
+    color: #585868;
+    padding-left: 25px;
+}
+
+.stringth-section div h2
+{
+    color: white;
+    margin: 0px;
+    font-size: xx-large;
+}
+
+#generate-btn
+{
+    width: 100%;
+    height: 50px;
+    background-color: #97fca2;
+    border: 0px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+#generate-btn:hover
+{
+    background-color: #b3f1ba;
+    transition: all 0.3s;
+}
+
+#arrow-icon
+{
+    font-size: 12px;
+    margin-left: 0.5rem;
+    font-weight: 900;
+}
+
+
+/*////////////////////////*/
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+    margin: 10px 0px 20px 0px;
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 3px; /* Specified height */
+    background: #18181b; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px;  /* Slider handle height */
+    border-radius: 50% 50%;
+    background: white; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
